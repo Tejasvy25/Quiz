@@ -21,7 +21,7 @@ function nextPage(qid, name, type, page)
         {
             console.log(ql[i].value)
             if(ql[i].checked){attempt++}
-            if(ql[i].checked && ql[i].value == '41')
+            if(ql[i].checked && ql[i].value == 'Manish Pandey')
             {
                 score = Number(getScore()) + 1
                 setScore(score)
@@ -36,7 +36,7 @@ function nextPage(qid, name, type, page)
         {
             console.log(ql[i].value)
             if(ql[i].checked){attempt++}
-            if(ql[i].checked && ql[i].value == 'Age')
+            if(ql[i].checked && ql[i].value == 'Alzarri Joseph')
             {
                 score = Number(getScore()) + 1
                 setScore(score)
@@ -50,7 +50,7 @@ function nextPage(qid, name, type, page)
         {
             console.log(ql[i].value)
             if(ql[i].checked){attempt++}
-            if(ql[i].checked && ql[i].value == 'ICU')
+            if(ql[i].checked && ql[i].value == 'Gautam Gambhir')
             {
                 score = Number(getScore()) + 1
                 setScore(score)
@@ -64,7 +64,7 @@ function nextPage(qid, name, type, page)
         {
             console.log(ql[i].value)
             if(ql[i].checked){attempt++}
-            if(ql[i].checked && ql[i].value == 'Egg')
+            if(ql[i].checked && ql[i].value == 'Yusuf Pathan')
             {
                 score = Number(getScore()) + 1
                 setScore(score)
@@ -78,7 +78,7 @@ function nextPage(qid, name, type, page)
         {
             console.log(ql[i].value)
             if(ql[i].checked){attempt++}
-            if(ql[i].checked && ql[i].value == 'Your breath')
+            if(ql[i].checked && ql[i].value == 'MS Dhoni')
             {
                 score = Number(getScore()) + 1
                 setScore(score)
@@ -86,6 +86,77 @@ function nextPage(qid, name, type, page)
             }
         }
     }
+    if(type == "radio" && qid == "q6"){
+        ql = document.getElementsByName(name)
+        for(let i = 0; i < ql.length; i++)
+        {
+            console.log(ql[i].value)
+            if(ql[i].checked){attempt++}
+            if(ql[i].checked && ql[i].value == '2014')
+            {
+                score = Number(getScore()) + 1
+                setScore(score)
+
+            }
+        }
+    }
+    if(type == "radio" && qid == "q7"){
+        ql = document.getElementsByName(name)
+        for(let i = 0; i < ql.length; i++)
+        {
+            console.log(ql[i].value)
+            if(ql[i].checked){attempt++}
+            if(ql[i].checked && ql[i].value == '175*')
+            {
+                score = Number(getScore()) + 1
+                setScore(score)
+
+            }
+        }
+    }
+    if(type == "radio" && qid == "q8"){
+        ql = document.getElementsByName(name)
+        for(let i = 0; i < ql.length; i++)
+        {
+            console.log(ql[i].value)
+            if(ql[i].checked){attempt++}
+            if(ql[i].checked && ql[i].value == 'Tom Moody')
+            {
+                score = Number(getScore()) + 1
+                setScore(score)
+
+            }
+        }
+    }
+    if(type == "radio" && qid == "q9"){
+        ql = document.getElementsByName(name)
+        for(let i = 0; i < ql.length; i++)
+        {
+            console.log(ql[i].value)
+            if(ql[i].checked){attempt++}
+            if(ql[i].checked && ql[i].value == 'Kolkata Knight Riders and Rajasthan Royals')
+            {
+                score = Number(getScore()) + 1
+                setScore(score)
+
+            }
+        }
+    }
+    if(type == "radio" && qid == "q10"){
+        ql = document.getElementsByName(name)
+        for(let i = 0; i < ql.length; i++)
+        {
+            console.log(ql[i].value)
+            if(ql[i].checked){attempt++}
+            if(ql[i].checked && ql[i].value == 'Shikhar Dhawan')
+            {
+                score = Number(getScore()) + 1
+                setScore(score)
+
+            }
+        }
+    }
+
     
     window.location.href = page;
 }
